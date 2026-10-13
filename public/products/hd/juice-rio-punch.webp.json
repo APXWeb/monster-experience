@@ -1,0 +1,4 @@
+{
+  "prompt": "ORIGIN: derived from the official Monster Energy Brazil render public/products/juice-rio-punch.webp (monsterenergy.com/pt-br, 2026-10-12). Real-ESRGAN x4plus upscale of the artwork, downsampled to 600 px wide; small-print bands (designation paragraph, side volume text, seal corner) taken from a plain Lanczos upscale of the official file so no label text is altered (tools/compose-hd.py).",
+  "createdAt": "2026-10-13T04:24:45.191Z"
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T00:00:00Z",
+  "title": "Design System: Monster Experience",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Press Ink", "canonical": "#060807", "tonalRamp": ["#212c26", "#394c42", "#516c5e", "#698c7a", "#88a596", "#a8bdb3", "#cbd8d1", "#f0f4f2"] },
+      "steel": { "role": "neutral", "displayName": "Graphite Steel", "canonical": "#2b3230", "tonalRamp": ["#232927", "#3d4744", "#576561", "#71847e", "#8f9e9a", "#adb8b5", "#ced5d3", "#f1f3f3"] },
+      "rule": { "role": "neutral", "displayName": "Hairline", "canonical": "rgb(232 238 230 / 0.13)" },
+      "rule-strong": { "role": "neutral", "displayName": "Strong Hairline", "canonical": "rgb(232 238 230 / 0.26)" },
+      "text": { "role": "neutral", "displayName": "Bone", "canonical": "#eaefe8", "tonalRamp": ["#232d1f", "#3d4e36", "#576f4d", "#719064", "#8ea984", "#adc0a5", "#ced9c9", "#f1f5f0"] },
+      "text-soft": { "role": "neutral", "displayName": "Soft Bone", "canonical": "#d3dbd5" },
+      "muted": { "role": "neutral", "displayName": "Ash", "canonical": "#a9b3ad", "tonalRamp": ["#242926", "#3e4641", "#59645d", "#738279", "#909d95", "#aeb7b2", "#ced4d1", "#f1f3f2"] },
+      "faint": { "role": "neutral", "displayName": "Slag", "canonical": "#7e8983", "tonalRamp": ["#252826", "#3f4542", "#5a635e", "#75807a", "#929b96", "#afb6b2", "#cfd3d1", "#f2f3f2"] },
+      "acid": { "role": "primary", "displayName": "Working-Light Acid", "canonical": "#8fe03a", "tonalRamp": ["#27420a", "#437312", "#60a31a", "#7dd421", "#98e34a", "#b4ea7b", "#d2f3b0", "#f2fce9"] },
+      "acid-ink": { "role": "primary", "displayName": "Press Ink on Acid", "canonical": "#0b1205", "tonalRamp": ["#253c11", "#3f681d", "#5a9429", "#75c035", "#92d25b", "#afde87", "#cfebb7", "#f2f9eb"] },
+      "accent-deep": { "role": "secondary", "displayName": "Product Deep (runtime, default)", "canonical": "#5fbf1c", "tonalRamp": ["#21430a", "#3a7411", "#52a518", "#6ad61f", "#89e449", "#a8eb7a", "#cbf3af", "#f1fce9"] },
+      "line-monster-energy": { "role": "tertiary", "displayName": "Monster Energy Green", "canonical": "#8fe03a", "tonalRamp": ["#27420a", "#437312", "#60a31a", "#7dd421", "#98e34a", "#b4ea7b", "#d2f3b0", "#f2fce9"] },
+      "line-monster-ultra": { "role": "tertiary", "displayName": "Ultra Frost", "canonical": "#e4ebf1", "tonalRamp": ["#1a2732", "#2d4457", "#40617c", "#547da1", "#7599b8", "#9ab4cb", "#c3d2e0", "#eef3f6"] },
+      "line-dragon-tea": { "role": "tertiary", "displayName": "Dragon Tea Amber", "canonical": "#e0a63e", "tonalRamp": ["#422e0b", "#725012", "#a3721a", "#d39422", "#e2ac4b", "#eac27b", "#f2dbb0", "#fbf5e9"] },
+      "line-juice-monster": { "role": "tertiary", "displayName": "Juice Gold", "canonical": "#ffb020", "tonalRamp": ["#4d3100", "#855600", "#bd7a00", "#f59e00", "#ffb52e", "#ffc966", "#ffdea3", "#fff6e5"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero, catalog and finale titles; uppercase, packed tight." },
+      "numeral": { "displayName": "Station Numeral", "purpose": "Struck station numbers in acid beside the station title." },
+      "headline": { "displayName": "Headline", "purpose": "Station titles and product names." },
+      "figure": { "displayName": "Figure", "purpose": "Instrument values and the strike count, tabular lining numerals." },
+      "title": { "displayName": "Title", "purpose": "Detail block heads, rail numerals, counters; uppercase 800." },
+      "body": { "displayName": "Body", "purpose": "Reading text, Figtree 450." },
+      "lede": { "displayName": "Lede", "purpose": "Hero, station and catalog ledes, 38 to 46ch." },
+      "label": { "displayName": "Label", "purpose": "Chips, gauge labels, nav, scroll cue." }
+    },
+    "shadows": [
+      { "name": "lit-glow", "value": "0 10px 30px -12px var(--accent)", "purpose": "Primary button at rest; hover 0 14px 36px -10px." },
+      { "name": "step-glow", "value": "0 6px 22px -8px var(--acid)", "purpose": "Current step chip." },
+      { "name": "panel-falloff", "value": "-30px 0 80px -20px rgb(0 0 0 / 0.7), inset 1px 0 0 var(--rule)", "purpose": "Detail side panel; the sheet uses 0 -30px 80px -20px with an inset top hairline." },
+      { "name": "can-drop", "value": "drop-shadow(0 40px 50px rgb(0 0 0 / 0.6))", "purpose": "Product renders on the stage; thumbs use 0 12px 14px rgb(0 0 0 / 0.55)." },
+      { "name": "hairline-ring", "value": "inset 0 0 0 1px var(--rule-strong)", "purpose": "Ghost and icon buttons, chips, filters in place of borders." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "All UI state transitions, 0.2 to 0.9s." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "Looping cues: loader run, scroll-cue shimmer." },
+      { "name": "scroll-scrub", "value": "scroll-linked, reversible", "purpose": "The journey timeline is scrubbed by scroll frame by frame; no autoplay." },
+      { "name": "reduced-motion", "value": "held frames, transitions 0.01ms", "purpose": "Camera rests on each station's composed frame; breath and parallax off." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "520px" },
+      { "name": "header-compact", "value": "720px" },
+      { "name": "portrait", "value": "820px portrait or 600px" },
+      { "name": "foot-stack", "value": "860px" },
+      { "name": "sheet", "value": "1023px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Lit pill in the product accent; the main catalog action.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg>Ver ficha completa</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; border-radius: 999px; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.01em; cursor: pointer; transition: background-color 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.3s cubic-bezier(0.16,1,0.3,1), transform 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-btn svg { width: 18px; height: 18px; flex: none; } .ds-btn-primary { background: var(--accent, #8fe03a); color: #0b1205; box-shadow: 0 10px 30px -12px var(--accent, #8fe03a); } .ds-btn-primary:hover { box-shadow: 0 14px 36px -10px var(--accent, #8fe03a); } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #8fe03a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Plate with a hairline ring that lights in the accent on hover.",
+      "html": "<button class=\"ds-btn-ghost\">Voltar ao catálogo</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; border-radius: 999px; color: #eaefe8; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; background: rgb(255 255 255 / 0.04); box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.26); cursor: pointer; transition: background-color 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.3s cubic-bezier(0.16,1,0.3,1), transform 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-btn-ghost:hover { background: rgb(255 255 255 / 0.08); box-shadow: inset 0 0 0 1px var(--accent, #8fe03a); } .ds-btn-ghost:active { transform: scale(0.97); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--accent, #8fe03a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "48px circular plate for prev/next and close.",
+      "html": "<button class=\"ds-icon-btn\" aria-label=\"Próximo\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-icon-btn { display: inline-grid; place-items: center; width: 48px; height: 48px; border: 0; border-radius: 999px; color: #eaefe8; background: rgb(255 255 255 / 0.04); box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.26); cursor: pointer; transition: background-color 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s cubic-bezier(0.16,1,0.3,1); } .ds-icon-btn svg { width: 20px; height: 20px; } .ds-icon-btn:hover { background: rgb(255 255 255 / 0.09); box-shadow: inset 0 0 0 1px var(--accent, #8fe03a); } .ds-icon-btn:focus-visible { outline: 2px solid var(--accent, #8fe03a); outline-offset: 3px; } .ds-icon-btn:disabled { opacity: 0.35; cursor: default; }"
+    },
+    {
+      "name": "Line Filter",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Pill filter whose line color lights the pressed one.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-filter\" aria-pressed=\"true\" style=\"--f:#8fe03a\"><span class=\"ds-filter-dot\"></span>Monster Energy <span class=\"ds-filter-count\">4</span></button><button class=\"ds-filter\" aria-pressed=\"false\" style=\"--f:#e0a63e\"><span class=\"ds-filter-dot\"></span>Dragon Tea <span class=\"ds-filter-count\">2</span></button></div>",
+      "css": ".ds-filters { display: flex; flex-wrap: wrap; gap: 8px; } .ds-filter { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; padding: 0 16px; border: 0; border-radius: 999px; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-weight: 650; font-size: 0.92rem; color: #a9b3ad; background: rgb(255 255 255 / 0.03); box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.13); cursor: pointer; transition: color 0.25s cubic-bezier(0.16,1,0.3,1), background-color 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s cubic-bezier(0.16,1,0.3,1); } .ds-filter:hover { color: #eaefe8; box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.26); } .ds-filter[aria-pressed='true'] { color: #eaefe8; background: color-mix(in srgb, var(--f) 14%, transparent); box-shadow: inset 0 0 0 1.5px var(--f); } .ds-filter:focus-visible { outline: 2px solid #8fe03a; outline-offset: 3px; } .ds-filter-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--f); box-shadow: 0 0 10px var(--f); } .ds-filter-count { font-size: 0.78rem; font-weight: 700; color: #7e8983; } .ds-filter[aria-pressed='true'] .ds-filter-count { color: #eaefe8; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Concept mark with hairline tag, pill nav links.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-mark\">APX</span><span class=\"ds-brand-word\">Web</span><span class=\"ds-brand-tag\">Projeto conceitual</span></a><nav class=\"ds-nav\"><a href=\"#\">Jornada</a><a href=\"#\">Sabores</a><a href=\"#\">Sobre o projeto</a></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; height: 72px; padding: 0 clamp(16px, 4vw, 56px); background: rgb(6 8 7 / 0.9); box-shadow: 0 1px 0 rgb(232 238 230 / 0.13); color: #eaefe8; } .ds-brand { display: flex; align-items: baseline; gap: 6px; text-decoration: none; color: inherit; } .ds-brand-mark, .ds-brand-word { font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-size: 1.6rem; line-height: 1; } .ds-brand-mark { font-weight: 900; } .ds-brand-word { font-weight: 800; color: #8fe03a; } .ds-brand-tag { margin-left: 12px; align-self: center; padding: 4px 10px; border-radius: 999px; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; color: #a9b3ad; box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.26); } .ds-nav { display: flex; gap: 4px; } .ds-nav a { padding: 10px 14px; border-radius: 999px; text-decoration: none; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-weight: 600; font-size: 0.92rem; color: #a9b3ad; transition: color 0.2s cubic-bezier(0.16,1,0.3,1), background-color 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-nav a:hover { color: #eaefe8; background: rgb(255 255 255 / 0.06); } .ds-nav a:focus-visible { outline: 2px solid #8fe03a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Station Placard",
+      "kind": "custom",
+      "refersTo": "station-placard",
+      "description": "Acid numeral, heavy title, lede, step chips and a strike register.",
+      "html": "<section class=\"ds-station\"><h2 class=\"ds-station-head\"><span class=\"ds-station-num\">03</span><span class=\"ds-station-title\">Formação<br>da lata</span></h2><p class=\"ds-station-body\">Um disco de alumínio recebe golpe após golpe até virar corpo, fundo e gargalo.</p><div class=\"ds-register\"><span class=\"ds-register-label\">Golpes registrados</span><span class=\"ds-register-count\">02</span><span class=\"ds-register-scale\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span><span class=\"ds-register-total\">/ 05</span></div><ol class=\"ds-steps\"><li class=\"done\">Corte</li><li class=\"done\">Embutimento</li><li class=\"on\">Estiramento</li><li>Fundo</li><li>Gargalo</li></ol></section>",
+      "css": ".ds-station { max-width: 560px; color: #eaefe8; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; } .ds-station-head { display: grid; grid-template-columns: auto 1fr; align-items: end; column-gap: 18px; margin: 0; font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -0.012em; } .ds-station-num { font-size: 8rem; line-height: 0.78; color: #8fe03a; font-variant-numeric: tabular-nums lining-nums; } .ds-station-title { font-size: 4.2rem; line-height: 0.88; } .ds-station-body { margin: 24px 0 0; max-width: 38ch; font-size: 1.15rem; line-height: 1.5; font-weight: 500; color: #d3dbd5; } .ds-register { display: grid; grid-template-columns: auto 1fr auto; align-items: end; column-gap: 12px; margin-top: 22px; max-width: 380px; } .ds-register-label { grid-column: 1 / -1; margin-bottom: 6px; font-size: 0.8rem; font-weight: 650; color: #a9b3ad; } .ds-register-count { font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 900; font-size: 2.6rem; line-height: 0.8; } .ds-register-total { font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 1.1rem; color: #7e8983; } .ds-register-scale { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; align-self: center; } .ds-register-scale i { height: 10px; border-radius: 2px; background: #2b3230; } .ds-register-scale i.on { background: #8fe03a; transform: scaleY(1.5); } .ds-steps { list-style: none; margin: 26px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; } .ds-steps li { padding: 7px 14px; border-radius: 999px; font-size: 0.85rem; font-weight: 650; color: #7e8983; box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.13); transition: color 0.35s cubic-bezier(0.16,1,0.3,1), background-color 0.35s cubic-bezier(0.16,1,0.3,1); } .ds-steps li.done { color: #a9b3ad; box-shadow: inset 0 0 0 1px rgb(232 238 230 / 0.26); } .ds-steps li.on { color: #0b1205; background: #8fe03a; box-shadow: 0 6px 22px -8px #8fe03a; }"
+    },
+    {
+      "name": "Instrument Row",
+      "kind": "custom",
+      "refersTo": "gauge",
+      "description": "Ruled figure row with a 21-tick scale on the catalog-wide min to max.",
+      "html": "<dl class=\"ds-gauges\"><div class=\"ds-gauge\"><dt class=\"ds-gauge-label\">Cafeína <span>mg</span></dt><dd class=\"ds-gauge-value\">156</dd><dd class=\"ds-gauge-scale\"><span class=\"ds-ruler\"><i class=\"M l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"M l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"M l\"></i><i class=\"l\"></i><i class=\"l\"></i><i class=\"l\"></i><i></i><i class=\"M\"></i><i></i><i></i><i></i><i></i><i class=\"M\"></i><b style=\"left:68%\"></b></span><span class=\"ds-ends\"><span>89</span><span>187</span></span></dd></div></dl>",
+      "css": ".ds-gauges { margin: 0; border-top: 1px solid rgb(232 238 230 / 0.26); font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; color: #eaefe8; max-width: 520px; } .ds-gauge { display: grid; grid-template-columns: 9.5rem 5.6rem 1fr; align-items: center; column-gap: 16px; padding: 12px 0; border-bottom: 1px solid rgb(232 238 230 / 0.13); } .ds-gauge dd { margin: 0; } .ds-gauge-label { display: flex; align-items: baseline; gap: 8px; font-size: 0.86rem; font-weight: 650; color: #a9b3ad; } .ds-gauge-label span { font-size: 0.78rem; font-weight: 700; color: #7e8983; } .ds-gauge-value { text-align: right; font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 900; font-size: 2.5rem; line-height: 0.9; font-variant-numeric: tabular-nums lining-nums; } .ds-gauge-scale { display: grid; gap: 5px; } .ds-ruler { position: relative; display: flex; justify-content: space-between; align-items: end; height: 16px; } .ds-ruler i { width: 2px; height: 7px; border-radius: 1px; background: #2b3230; } .ds-ruler i.M { height: 12px; } .ds-ruler i.l { background: var(--accent, #8fe03a); } .ds-ruler b { position: absolute; bottom: -3px; width: 2px; height: 22px; margin-left: -1px; border-radius: 2px; background: #eaefe8; box-shadow: 0 0 10px rgb(255 255 255 / 0.35); } .ds-ends { display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 600; color: #7e8983; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Anatomy Callout",
+      "kind": "custom",
+      "refersTo": "callout",
+      "description": "Dot, ruled acid leader and label anchored to the 3D can silhouette.",
+      "html": "<div class=\"ds-callout-stage\"><span class=\"ds-callout\">Gargalo estreitado</span></div>",
+      "css": ".ds-callout-stage { position: relative; padding: 24px 24px 24px 32px; background: #060807; } .ds-callout { position: relative; display: inline-block; padding-left: 56px; line-height: 1.2em; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; font-weight: 700; font-size: 0.82rem; color: #eaefe8; white-space: nowrap; text-shadow: 0 1px 10px rgb(0 0 0 / 0.85); background: linear-gradient(#8fe03a, #8fe03a) 0 50% / 46px 1px no-repeat; } .ds-callout::before { content: ''; position: absolute; left: -3.5px; top: 50%; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 50%; background: #8fe03a; box-shadow: 0 0 0 3px rgb(143 224 58 / 0.25); }"
+    },
+    {
+      "name": "Detail Panel",
+      "kind": "card",
+      "refersTo": "detail-panel",
+      "description": "Translucent ink side panel with an accent corner glow; bottom sheet below 1023px.",
+      "html": "<aside class=\"ds-panel\"><h2 class=\"ds-panel-name\">Original Green</h2><div class=\"ds-panel-block\"><h3>Sabor</h3><p class=\"ds-panel-flavor\">Marcante e suave.</p></div></aside>",
+      "css": ".ds-panel { --c: var(--accent, #8fe03a); width: min(600px, 100%); padding: 24px 36px; color: #eaefe8; font-family: 'Figtree Variable', 'Figtree', system-ui, sans-serif; background: radial-gradient(120% 50% at 100% 0%, color-mix(in srgb, var(--c) 16%, transparent), transparent 70%), rgb(11 14 13 / 0.94); backdrop-filter: blur(18px) saturate(1.2); box-shadow: -30px 0 80px -20px rgb(0 0 0 / 0.7), inset 1px 0 0 rgb(232 238 230 / 0.13); } .ds-panel-name { margin: 0 0 22px; font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 900; text-transform: uppercase; line-height: 0.86; letter-spacing: -0.012em; font-size: 4rem; } .ds-panel-block { padding: 26px 0; border-top: 1px solid rgb(232 238 230 / 0.13); } .ds-panel-block h3 { margin: 0 0 12px; font-family: 'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.25rem; letter-spacing: 0.02em; } .ds-panel-flavor { margin: 0; font-size: 1.15rem; font-weight: 700; line-height: 1.4; color: var(--c); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Press Line at Night",
+    "overview": "The whole page is a press shop with the lights mostly off. Black ink and graphite steel are the ground; acid green is the line's working light, the one thing that is lit; raw aluminium, rendered in the 3D world, is the material voice. Everything in the interface behaves like equipment on that line: stations carry a struck numeral and a heavy title, progress is counted in registered strikes, and product figures are read off calibrated instruments that share one scale.\n\nDensity is low and the type is loud. Heavy industrial condensed caps are packed huge and tight, cheek to cheek, against a full-bleed WebGL stage; reading text is Figtree at comfortable weights, never thin. Copy always sits on a scrim, never directly on bright 3D. When the rack opens, the working light hands over to each product's own color: the accent becomes whatever the selected can is.\n\nRejected by the user and by the build: thin or monospace faces, grid or blueprint backgrounds, em dashes in visible copy.",
+    "keyCharacteristics": [
+      "Full-bleed 3D stage under a fixed, scrimmed HTML layer.",
+      "One lit color at a time: acid green on the line, the selected product's accent in the rack.",
+      "Big Shoulders Display 800/900, uppercase, tight leading; Figtree 450 to 700 for reading.",
+      "Pills for every control; ruled hairlines for every instrument.",
+      "Motion is scroll-scrubbed and reversible; reduced motion holds composed frames."
+    ],
+    "rules": [
+      { "name": "The One Light Rule", "body": "Only one chromatic color is lit on screen at a time: acid on the line, the selected product's accent in the rack and detail. Line colors appear only as small dots and filter rings.", "section": "colors" },
+      { "name": "The Line Owns Its Color Rule", "body": "Once the rack opens, a product line's color is law. Never recolor a line, and never use a line color for anything except that line.", "section": "colors" },
+      { "name": "The Cheek-to-Cheek Rule", "body": "Display type is uppercase, weight 800 or 900, leading 0.78 to 0.88, tracking at or just under zero. Never loosen it into a light or airy headline.", "section": "typography" },
+      { "name": "The No Hairline Faces Rule", "body": "Figtree never drops below 450 in reading text; no thin, light or monospace face anywhere. Figures get tabular lining numerals instead of a mono font.", "section": "typography" },
+      { "name": "The Scrim Rule", "body": "Copy never sits directly on bright 3D: every text block over the stage has an ink gradient scrim behind it.", "section": "layout" },
+      { "name": "The Light Not Lift Rule", "body": "A control rises in emphasis by being lit (fill plus colored glow), never by a neutral lift shadow or offset.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep a single lit color per screen: acid on the line, the product accent in the rack (The One Light Rule).",
+      "Do set display type in Big Shoulders 800/900, uppercase, leading 0.78 to 0.88.",
+      "Do put every new figure on a shared, calibrated scale with its unit and source; label absent data \"Não informado\".",
+      "Do use full pills (999px) for controls and hairline rings instead of borders.",
+      "Do place a scrim behind any copy that sits over the 3D stage.",
+      "Do make scroll motion reversible and give reduced motion a held, composed frame."
+    ],
+    "donts": [
+      "Don't use thin, light or monospace fonts anywhere.",
+      "Don't add grid or blueprint backgrounds.",
+      "Don't use em dashes in visible copy.",
+      "Don't recolor a product line or borrow a line color for decoration.",
+      "Don't lift controls with neutral drop shadows; emphasis is light (fill and colored glow).",
+      "Don't redraw Monster marks or can art; use the official reference assets."
+    ]
+  }
+}

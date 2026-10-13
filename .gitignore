@@ -1,0 +1,9 @@
+node_modules
+dist
+test-results
+playwright-report
+.impeccable/live
+*.log
+.review
+playwright-report
+.impeccable/review

@@ -1,0 +1,937 @@
+{
+  "accessed": "2026-10-12",
+  "catalogSource": "https://www.monsterenergy.com/pt-br/energy-drinks/",
+  "lines": [
+    {
+      "id": "monster-energy",
+      "name": "Monster Energy",
+      "color": "#8fe03a",
+      "description": "O original que começou tudo. A linha clássica da Monster Energy oferece uma energia poderosa e intensa que só a Monster Energy tem.",
+      "source": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/"
+    },
+    {
+      "id": "monster-ultra",
+      "name": "Monster Ultra",
+      "color": "#e4ebf1",
+      "description": "Zero açúcar, muito sabor. Monster Ultra é destemido!",
+      "source": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/"
+    },
+    {
+      "id": "dragon-tea",
+      "name": "Dragon Tea",
+      "color": "#e0a63e",
+      "description": "Monster Dragon Iced Tea oferece chá leve e refrescante com ingredientes que aumentam a energia em chás verdes, chás pretos e chás de frutas.",
+      "source": "https://www.monsterenergy.com/pt-br/energy-drinks/dragon-tea/"
+    },
+    {
+      "id": "juice-monster",
+      "name": "Juice Monster",
+      "color": "#ffb020",
+      "description": "Feito com suco de fruta, grande sabor e a potência da Monster Energy em cada gole.",
+      "source": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/"
+    }
+  ],
+  "products": [
+    {
+      "id": "original-green",
+      "line": "monster-energy",
+      "displayName": "Original Green",
+      "officialName": "MONSTER ENERGY ORIGINAL GREEN",
+      "flavor": "O SABOR DE MONSTER É AO MESMO TEMPO MARCANTE E SUAVE.",
+      "description": "Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular. Monster possui uma presença marcante e um sabor único! Inconfundível.",
+      "figures": {
+        "calories": {
+          "value": 170.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 156.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "sugars": {
+          "value": 40.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [
+        "Selo frontal visível na embalagem oficial: \"Alto em açúcar adicionado\"."
+      ],
+      "image": "products/original-green.webp",
+      "colors": {
+        "accent": "#8fe03a",
+        "deep": "#5fbf1c"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-original/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/4e8fb79e-e45a-4a2b-b1ea-14ca29aa7f0f.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-original/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-green-473ml-9901000/p ; https://www.amazon.com.br/Energ%C3%A9tico-Monster-Energy-Drink-473ml/dp/B0BYTMYXBJ/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-6&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9 ; https://www.paodeacucar.com/produto/11178/energetico-monster-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-lata-473ml-1049206/p"
+        }
+      ]
+    },
+    {
+      "id": "zero-sugar",
+      "line": "monster-energy",
+      "displayName": "Zero Sugar",
+      "officialName": "MONSTER ENERGY ZERO SUGAR",
+      "flavor": "O SABOR DE MONSTER ORIGINAL, AGORA ZERO AÇÚCAR.",
+      "description": "Faz tempo que a gente ouve a galera pedindo um Monster zero açúcar. E esse era o desafio! Fazer uma bebida com menos calorias, sem açúcar e gostosa a ponto de manter a pegada já conhecida da Monster, não foi moleza. Esse é o nosso DNA. Inovar e garantir que o sabor único da Monster possa ir para o seu rolê com menos calorias e zero açúcar. Ficou irado!",
+      "figures": {
+        "calories": {
+          "value": 14.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 142.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açucares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/zero-sugar.webp",
+      "colors": {
+        "accent": "#b6ec4f",
+        "deep": "#7ccf22"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-zero-sugar/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/08558266-2a35-42c7-b38d-cc64dee52bf8.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-zero-sugar/",
+          "accessed": "2026-10-12",
+          "note": "https://www.paodeacucar.com/produto/1623422/energetico-zero-acucar-monster-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-zero-sugar-lata-473ml-1115832/p"
+        }
+      ]
+    },
+    {
+      "id": "absolutely-zero",
+      "line": "monster-energy",
+      "displayName": "Absolutely Zero",
+      "officialName": "MONSTER ENERGY ABSOLUTELY ZERO",
+      "flavor": "SABOR MONSTER ENERGY COM UM LEVE TOQUE CÍTRICO",
+      "description": "Monster Energy Absolutely Zero traz o mesmo sabor e o mesmo punch energético do original, com menos calorias e sem açúcares.",
+      "figures": {
+        "calories": {
+          "value": 14.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 142.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açucares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/absolutely-zero.webp",
+      "colors": {
+        "accent": "#8fd6ec",
+        "deep": "#2f9ccf"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-absolutely-zero/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/0bcf4538-7fdd-49f3-b0fe-07a657b22b02.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-absolutely-zero/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-absolutely-zero-473ml-5781051/p ; https://www.amazon.com.br/Pack-Monster-Absolutely-Zero-473ml/dp/B0BYTLY4K1/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-5 ; https://www.paodeacucar.com/produto/451838/energetico-diet-monster-absolutely-zero-lata-473ml"
+        }
+      ]
+    },
+    {
+      "id": "original-green-269ml",
+      "line": "monster-energy",
+      "displayName": "Original Green 269 ml",
+      "officialName": "MONSTER ENERGY 269ML",
+      "flavor": "O SABOR DE MONSTER É AO MESMO TEMPO MARCANTE E SUAVE.",
+      "description": "Chegou a nova lata de Monster Energy. A marca de energético dos esportes radicais, da música e do gaming, agora traz energia para você curtir a noite toda. O sabor insano de Monster Green, agora em uma lata de 269 ml. Leve, refrescante e com a energia de sempre. Vamos invadir a noite brasileira!",
+      "figures": {
+        "calories": {
+          "value": 94.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 89.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        }
+      },
+      "volume": {
+        "ml": 269,
+        "basis": "Volume informado no nome e na descrição da página oficial."
+      },
+      "ingredients": null,
+      "packNotes": [
+        "Selo frontal visível na embalagem oficial: \"Alto em açúcar adicionado\"."
+      ],
+      "image": "products/original-green-269ml.webp",
+      "colors": {
+        "accent": "#8fe03a",
+        "deep": "#5fbf1c"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-energy/monster-energy-269ml/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/b8a322d5-b615-4322-abb4-4ad3fabefb74.png",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "ultra-white",
+      "line": "monster-ultra",
+      "displayName": "Ultra White",
+      "officialName": "MONSTER ENERGY ULTRA WHITE",
+      "flavor": "SABOR CÍTRICO. SEM ACÚCAR!",
+      "description": "Mais refrescante. Mais leve. Monster Energy Zero Ultra é zero açúcar e uma carga completa de nossa mistura de energia Monster.",
+      "figures": {
+        "calories": {
+          "value": 14.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açucares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-white.webp",
+      "colors": {
+        "accent": "#e4ebf1",
+        "deep": "#9fb3c4"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-zero-ultra/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/2a0394e2-72f5-4a5f-a300-3430e92b2bcc.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-zero-ultra/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-ultra-white-sem-acucar-473ml-8627320/p ; https://www.amazon.com.br/Pack-Monster-Ultra-473ml-unidades/dp/B0CQD3CQHY/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-1 ; https://www.paodeacucar.com/produto/353253/energetico-monster-ultra-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-ultra-sem-acucar-lata-473ml-1049216/p"
+        }
+      ]
+    },
+    {
+      "id": "ultra-violet",
+      "line": "monster-ultra",
+      "displayName": "Ultra Violet",
+      "officialName": "MONSTER ENERGY ULTRA VIOLET",
+      "flavor": "SABOR UVA CÍTRICA. SEM AÇÚCAR!",
+      "description": "Bem-vindo aos anos 70! Época de atitude, livre e positiva, com um estilo único e inconfundível: calças boca de sino com bandanas típicas e estampas tie-dye. Tempo onde o psicodélico, glamour, heavy metal e Rock se misturam em uma harmonia única. Pegou? Então vamos tomar um Monter Ultra Violet! Refrescante, com um sabor doce e picante, tão mágico e potente com o nosso blend clássico Monster Energy. Embarque com a Monster nessa viagem mágica de volta ao tempo.",
+      "figures": {
+        "calories": {
+          "value": 14.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açucares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-violet.webp",
+      "colors": {
+        "accent": "#a77ae6",
+        "deep": "#6a3fb8"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-violet/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/fd918562-3409-4351-999a-85edd27aed6e.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-violet/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-ultra-violet-sem-acucar-473ml-5805805/p ; https://www.amazon.com.br/Pack-Monster-Ultra-Violet-473ml/dp/B0BYTLNLFH/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-8 ; https://www.paodeacucar.com/produto/453213/energetico-monster-energy-ultra-violet-sem-acucar-473ml"
+        }
+      ]
+    },
+    {
+      "id": "ultra-watermelon",
+      "line": "monster-ultra",
+      "displayName": "Ultra Watermelon",
+      "officialName": "MONSTER ENERGY ULTRA WATERMELON",
+      "flavor": "MELANCIA REFRESCANTE",
+      "description": "Sob o céu noturno iluminado por fogos de artifício, você tem sua paixão ao seu lado. Com boa música e melhores amigos, é o melhor verão de todos os tempos. Ultra Watermelon é verão em lata, para que você possa apreciá-lo a qualquer hora. Sem açúcar, sabor refrescante, com a mistura explosiva de energia Monster para iluminar as noites quentes de verão.",
+      "figures": {
+        "calories": {
+          "value": 10.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-watermelon.webp",
+      "colors": {
+        "accent": "#ff5a6c",
+        "deep": "#d92c45"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-watermelon/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/434d38f2-4c69-41cf-8332-5de290374fff.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-watermelon/",
+          "accessed": "2026-10-12",
+          "note": "https://www.amazon.com.br/MONSTER-ULTRA-WATERMELON-473ML-unidades/dp/B0CQD3TY4T/ref=sr_1_9?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-9&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9 ; https://www.paodeacucar.com/produto/1564962/energetico-ultra-watermelon-zero-acucar-monster-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-ultra-watermelon-sem-acucar-lata-473ml-1105168/p"
+        }
+      ]
+    },
+    {
+      "id": "ultra-peachy-keen",
+      "line": "monster-ultra",
+      "displayName": "Ultra Peachy Keen",
+      "officialName": "MONSTER ENERGY ULTRA PEACHY KEEN",
+      "flavor": "SABOR PÊSSEGO COM O BLEND SECRETO MONSTER ENERGY",
+      "description": "Tudo fica bem quando você dá um gole no Ultra Peachy Keen. Zero açúcares, com sabor de pêssego e o nosso blend secreto de Monster Energy. Dos boomers aos zoomers, ele apaixona qualquer um.",
+      "figures": {
+        "calories": {
+          "value": 10.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 150.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais (g)"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-peachy-keen.webp",
+      "colors": {
+        "accent": "#ffab8a",
+        "deep": "#f07a58"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-peachy-keen/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/ece7b4eb-a303-4bcf-8e43-15c25537fd9a.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-energy-ultra-peachy-keen/",
+          "accessed": "2026-10-12",
+          "note": "https://www.paodeacucar.com/produto/1627856/energetico-ultra-peachy-keen-zero-acucar-monster-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-ultra-peachy-keen-sem-acucar-lata-473ml-1121525/p"
+        }
+      ]
+    },
+    {
+      "id": "ultra-fiesta-mango",
+      "line": "monster-ultra",
+      "displayName": "Ultra Fiesta Mango",
+      "officialName": "MONSTER ULTRA FIESTA MANGO",
+      "flavor": "SABOR TROPICAL DE MANGA",
+      "description": "Deixe para dormir depois, porque hoje vamos para a “Festa” como se não houvesse amanhã. Ultra Fiesta celebra as noites que duram até o dia e os amigos que agora são família. Zero açúcar, o Ultra Fiesta mistura o sabor tropical da manga com o Ultra que amamos, finalizando com a potência do nosso blend Monster Energy.",
+      "figures": {
+        "calories": {
+          "value": 14.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 144.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-fiesta-mango.webp",
+      "colors": {
+        "accent": "#2fc2bc",
+        "deep": "#ff8a2a"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-ultra-fiesta/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/beb7aec9-78b1-4a0e-ab05-86c68fb0ed92.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-ultra-fiesta/",
+          "accessed": "2026-10-12",
+          "note": "https://www.paodeacucar.com/produto/1633818/energetico-ultra-fiesta-mango-zero-acucar-monster-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-ultra-fiesta-mango-sem-acucar-lata-473ml-1126046/p"
+        }
+      ]
+    },
+    {
+      "id": "ultra-strawberry-dreams",
+      "line": "monster-ultra",
+      "displayName": "Ultra Strawberry Dreams",
+      "officialName": "MONSTER ULTRA STRAWBERRY DREAMS",
+      "flavor": "SABOR MORANGO",
+      "description": "Algumas pessoas dizem que morangos são afrodisíacos. Elas afirmam que se você compartilhar um morango duplo com alguém, essa pessoa vai se apaixonar por você. Tudo o que sabemos é que o sabor do fruto em forma de coração é perfeito para nosso novo Ultra zero açúcares. Deliciosamente doce e com um toque de acidez, esse Ultra é suave e tem o sabor dos sonhos. Desenvolvido com paixão com nosso mix único de Monster Energy que você ama, dê um gole e você vai enlouquecer por Ultra Strawberry Dreams.",
+      "figures": {
+        "calories": {
+          "value": 9.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": null,
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/ultra-strawberry-dreams.webp",
+      "colors": {
+        "accent": "#f6b3d6",
+        "deep": "#d66aa6"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/monster-ultra/monster-ultra-strawberry-dreams/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/ea1afa91-0177-4a22-a02d-7548b7ac5f9c.png",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "dragon-tea-limao",
+      "line": "dragon-tea",
+      "displayName": "Dragon Ice Tea Limão",
+      "officialName": "MONSTER ENERGY DRAGON ICE TEA LIMÃO",
+      "flavor": "CHÁ GELADO DE LIMÃO COM ENERGÉTICO.",
+      "description": "Energético em formato de chá, sem gás com leve toque de limão. Inspirado em tradições milenares da china.",
+      "figures": {
+        "caffeine": {
+          "value": 137.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "calories": {
+          "value": 33.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 6.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/dragon-tea-limao.webp",
+      "colors": {
+        "accent": "#7fd04a",
+        "deep": "#b9853a"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/dragon-tea/monster-energy-dragon-ice-tea-limão/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/2b5bfc18-fb32-4f23-80ac-7f3b58ac16ef.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/dragon-tea/monster-energy-dragon-ice-tea-limão/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-dragon-ice-tea-lemon-473ml-6653227/p ; https://www.paodeacucar.com/produto/467622/energetico-lemon-monster-dragon-ice-tea-lata-473ml"
+        }
+      ]
+    },
+    {
+      "id": "dragon-tea-pessego",
+      "line": "dragon-tea",
+      "displayName": "Dragon Ice Tea Pêssego",
+      "officialName": "MONSTER ENERGY DRAGON ICE TEA PÊSSEGO",
+      "flavor": "CHÁ GELADO DE PÊSSEGO COM ENERGÉTICO.",
+      "description": "Energético em formato de chá, sem gás com leve toque de pêssego. Inspirado em tradições milenares da china.",
+      "figures": {
+        "caffeine": {
+          "value": 137.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "calories": {
+          "value": 33.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 6.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume legível na lateral da embalagem exibida na página oficial."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/dragon-tea-pessego.webp",
+      "colors": {
+        "accent": "#ffbf8a",
+        "deep": "#c98a3c"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/dragon-tea/monster-energy-dragon-ice-tea-pêssego/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/00502e05-a89a-4da2-94b4-676ae408af5a.png",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "juice-pacific-punch",
+      "line": "juice-monster",
+      "displayName": "Juice Pacific Punch",
+      "officialName": "MONSTER ENERGY JUICE PACIFIC PUNCH",
+      "flavor": "SABOR TROPICAL QUE É LEVE, SUAVE E O TOQUE PERFEITO DE DOCE.",
+      "description": "Com um sabor profundo e amplo, assim como o Oceano Pacífico, e com um mix de frutas nada tradicional inspirado nos clássicos ponches. Pacific Punch traz a energia Monster e chega para te deixar com vento em popa e pronto para encarar até as marés mais agitadas. O ponche de frutas naturais em sua versão mais irada!",
+      "figures": {
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "calories": {
+          "value": 166.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 38.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/juice-pacific-punch.webp",
+      "colors": {
+        "accent": "#ff4a4f",
+        "deep": "#e9dcc0"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-pacific-punch/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/030490c8-7885-443e-9336-6fd80c31535a.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-pacific-punch/",
+          "accessed": "2026-10-12",
+          "note": "https://www.amazon.com.br/Energ%C3%A9tico-Monster-Pacific-Punch-473ml/dp/B0BVRVP2MM/ref=sr_1_11?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-11"
+        }
+      ]
+    },
+    {
+      "id": "juice-mango-loco",
+      "line": "juice-monster",
+      "displayName": "Juice Mango Loco",
+      "officialName": "MONSTER ENERGY JUICE MANGO LOCO",
+      "flavor": "SUCO DE MANGA E MIX DE FRUTAS CÍTRICAS NATURAIS COM MONSTER ENERGY!",
+      "description": "Todo ano, na noite de 31 de Outubro no México, amigos e famílias se reúnem para celebrar o “Dia de Los Muertos”. Misticismo e memórias com muita comida e bebida seduzem a alma dos que já se foram para se juntarem á festa. Monster Mango Loco é o Mix de sucos perfeito para atrair as almas mais teimosas. Sabor irado junto do clássico punch de Monster faz com que a energia da festa dure por dias.",
+      "figures": {
+        "caffeine": {
+          "value": 147.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "calories": {
+          "value": 237.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 57.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [
+        "Selo frontal visível na embalagem oficial: \"Alto em açúcar adicionado\"."
+      ],
+      "image": "products/juice-mango-loco.webp",
+      "colors": {
+        "accent": "#45c1f5",
+        "deep": "#f5b030"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-mango-loco/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/390eebc8-8ce7-4f6f-b749-fbe1654fa9c2.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-mango-loco/",
+          "accessed": "2026-10-12",
+          "note": "https://mercado.carrefour.com.br/energetico-monster-energy-juice-mango-loco-473ml-5781060/p ; https://www.amazon.com.br/Pack-Monster-Mango-Loco-473ml/dp/B0BYTLPHBC/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-4 ; https://www.paodeacucar.com/produto/452790/energetico-juice-monster-mango-loco-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-juice-mango-loco-lata-473ml-1074137/p"
+        }
+      ]
+    },
+    {
+      "id": "juice-khaotic",
+      "line": "juice-monster",
+      "displayName": "Juice Khaotic",
+      "officialName": "MONSTER ENERGY JUICE KHAOTIC",
+      "flavor": "SUCO DE LARANJA COM ENERGÉTICO.",
+      "description": "De volta a 2005, Monster Juice Original abalou o jogo, combinando um delicioso suco de verdade e atitude de bebida energética. Agora, mais de uma década depois, decidimos que era hora de deixar esse clássico ainda mais irado. Melhoramos o sabor e ajustamos o mix de suco para criar um sabor ainda melhor.",
+      "figures": {
+        "caffeine": {
+          "value": 156.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "calories": {
+          "value": 142.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 33.0,
+          "unit": "g",
+          "officialLabel": "Açúcares totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/juice-khaotic.webp",
+      "colors": {
+        "accent": "#ffcc1f",
+        "deep": "#3fb6b0"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-khaotic/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/5a2afbe9-3ac3-4b77-ae10-7afd516f2dc4.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-khaotic/",
+          "accessed": "2026-10-12",
+          "note": "https://www.amazon.com.br/Pack-Monster-Khaotic-LT-473ml/dp/B0CC9NGJ4X/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._LUR_ueZJzNZQiMofxfuDVjP1obvCjy3lkUysBph3CGDSgFZAbmp1bWCYeYY8G2naNrydfn6lRlDhaxKwCxijC9M_3MRraDCQDcPnPo3lAmHB6IJ14VqNsYcP3uJRuG0VU6tCNjvTg3Nsj1Jcyidx9AbsxIHzoPH0ZjIyEC1fW4.leHcx5Szm_KBL8zdUc0K1mUmt3owZn72w2ruP-lM2_A&dib_tag=se&qid=1772045825&sr=8-10&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9 ; https://www.paodeacucar.com/produto/1599366/energetico-juice-tropical-orange-monster-khaotic-lata-473ml"
+        }
+      ]
+    },
+    {
+      "id": "juice-pipeline-punch",
+      "line": "juice-monster",
+      "displayName": "Juice Pipeline Punch",
+      "officialName": "MONSTER ENERGY JUICE PIPELINE PUNCH",
+      "flavor": "MARACUJÁ, LARANJA E GOIABA",
+      "description": "Banzai Pipeline, a onda mais famosa do mundo no lendário North Shore de Oahu, ganha vida por apenas alguns breves meses do ano. Em homenagem a essa força épica da natureza, criamos Juice Monster Pipeline Punch. A combinação perfeita dos melhores sabores que o Havaí oferece - maracujá, laranja e goiaba - depois Monsterizado com o nosso famoso combo energético. E assim como a onda que lhe deu o nome, está destinado a se tornar uma lenda!",
+      "figures": {
+        "caffeine": {
+          "value": 144.0,
+          "unit": "mg",
+          "officialLabel": "Cafeína"
+        },
+        "calories": {
+          "value": 142.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 38.0,
+          "unit": "g",
+          "officialLabel": "Açúcares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [
+        "Selo frontal visível na embalagem oficial: \"Alto em açúcar adicionado\"."
+      ],
+      "image": "products/juice-pipeline-punch.webp",
+      "colors": {
+        "accent": "#ff6f8e",
+        "deep": "#f6a3b8"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-pipeline-punch/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/3f67ce71-791c-44dc-b157-f95b43d6a424.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-pipeline-punch/",
+          "accessed": "2026-10-12",
+          "note": "https://www.paodeacucar.com/produto/1614937/energetico-juice-monster-pipeline-punch-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-juice-pipeline-punch-lata-473ml-1112461/p"
+        }
+      ]
+    },
+    {
+      "id": "juice-rio-punch",
+      "line": "juice-monster",
+      "displayName": "Juice Rio Punch",
+      "officialName": "MONSTER ENERGY JUICE RIO PUNCH",
+      "flavor": "CREME DE PAPAYA TROPICAL COM UM TOQUE DE ESPECIARIAS",
+      "description": "O Brasil faz tudo em grande estilo. Aqui é o lar de mais de 70% das frutas já conhecidas. Junte isso a maior festa do mundo, o Carnaval do Rio de Janeiro, e você terá uma inspiração épica! Juice Monster Rio Punch é uma sensação de sabor totalmente nova. É um mix de sabores de frutas exóticas com o toque de especiarias, finalizado com nosso punch energético Monster Energy. Da orla da Praia de Copacabana ao topo do Pão de Açúcar, o Rio Punch fará você festejar noite adentro.",
+      "figures": {
+        "caffeine": {
+          "value": 151.0,
+          "unit": "mg",
+          "officialLabel": "Caféina"
+        },
+        "calories": {
+          "value": 142.0,
+          "unit": "kcal",
+          "officialLabel": "Calorias"
+        },
+        "sugars": {
+          "value": 33.0,
+          "unit": "g",
+          "officialLabel": "Açúcares Totais"
+        }
+      },
+      "volume": {
+        "ml": 473,
+        "basis": "Volume citado nos links de compra exibidos na página oficial do produto."
+      },
+      "ingredients": null,
+      "packNotes": [],
+      "image": "products/juice-rio-punch.webp",
+      "colors": {
+        "accent": "#ffd923",
+        "deep": "#1fb8b2"
+      },
+      "sources": [
+        {
+          "label": "Página oficial do produto (pt-BR)",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-rio-punch/",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Imagem oficial da embalagem",
+          "url": "https://web-assests.monsterenergy.com/mnst/aac4a883-e3f7-4b19-b5d0-8b455dd767cc.png",
+          "accessed": "2026-10-12"
+        },
+        {
+          "label": "Links de compra listados na página oficial",
+          "url": "https://www.monsterenergy.com/pt-br/energy-drinks/juice-monster/monster-energy-juice-rio-punch/",
+          "accessed": "2026-10-12",
+          "note": "https://www.paodeacucar.com/produto/1638684/energetico-juice-creme-de-papaya-monster-rio-punch-lata-473ml ; https://www.zaffari.com.br/energetico-monster-energy-juice-rio-punch-lata-473ml-1130452/p"
+        }
+      ]
+    }
+  ],
+  "note": "Dados transcritos das páginas oficiais da Monster Energy Brasil. Campos ausentes não foram publicados nas páginas consultadas."
+}

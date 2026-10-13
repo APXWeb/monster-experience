@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core'
+import path from 'node:path'
+const exe = path.join(process.env.LOCALAPPDATA, 'ms-playwright', 'chromium-1243', 'chrome-win64', 'chrome.exe')
+const browser = await chromium.launch({ executablePath: exe, headless: true, args: ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist'] })
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 })
+await page.goto('http://localhost:4174/', { waitUntil: 'networkidle' })
+await page.waitForFunction(() => !document.querySelector('.loader'), null, { timeout: 30000 })
+const y = await page.evaluate(() => document.querySelector('#sabores-stage').getBoundingClientRect().top + scrollY - 96)
+await page.evaluate((y) => window.__scroll.jump(y), y)
+await page.waitForTimeout(4500)
+await page.click('.thumb[data-id="juice-mango-loco"]')
+await page.waitForTimeout(2500)
+const r = await page.evaluate(() => { const b = document.getElementById('can-slot').getBoundingClientRect(); return { x: b.x, y: b.y, width: b.width, height: b.height } })
+await page.screenshot({ path: '.review/hd-dpr2.png', clip: { x: r.x - 40, y: r.y, width: r.width + 80, height: r.height } })
+await browser.close()
